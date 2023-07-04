@@ -16,3 +16,4 @@ In relation to the type of decelerations, a function capable of discriminating b
 - Variable Decelerations:
 
 A complete analysis example.
+![CTG Analysis](https://github.com/mlinaresv/ctg_analysis/blob/main/analysis.png)
