@@ -15,5 +15,6 @@ In relation to the type of decelerations, a function capable of discriminating b
 - Late Decelerations:
 - Variable Decelerations:
 
-A complete analysis example.
+## An analysis example
+It must be taken into account that these are the preprocessed FHR and tocometry signals. Functions for the preprocessing method are also included in the repository. In our example, the initial length of the sequences was 120 minutes with a sampling frequency of 4Hz. After having processed the signals and resampled them by epochs, this is how the analysis looks like:
 ![CTG Analysis](https://github.com/mlinaresv/ctg_analysis/blob/main/analysis.png)
