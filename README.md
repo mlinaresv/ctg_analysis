@@ -18,6 +18,7 @@ In relation to the type of decelerations, a function capable of discriminating b
 ## An analysis example
 It must be taken into account that FHR and tocometry preprocessing techniques are required for the analysis. Therefore, preprocessing functions are also included in the repository. In our example, the initial length of the sequences was 120 minutes with a sampling frequency of 4Hz. After having processed the signals and resampled them by epochs, this is how the feature extraction analysis looks like each 10 minutes:
 ![CTG Analysis 1](https://github.com/mlinaresv/ctg_analysis/blob/main/example1.png)
+![CTG Analysis 2](https://github.com/mlinaresv/ctg_analysis/blob/main/example2.png)
 
 ## References
 - **Baseline Algorithm**. D.A. de Campos, J. Bernardes, A. Garrido, J.M. de Sá, and L. Pereira-Leite. SisPorto2.0: A program for automated analysis of cardiotocograms. *The Journal of Maternal-Fetal Medicine*, 9:311-318, 2000.
