@@ -10,10 +10,10 @@ This library proposes different functions to extract the most important features
 - **Short-Term Variability**: average of the absolute difference between FHR values of consecutive epochs for each minute (16 epochs).
 - **Long-Term Variability**: average of the absolute difference between the maximum and minimum FHR value for each minute (16 epochs).
 
-In relation to the type of decelerations, a function capable of discriminating between early, late and variable decelerations is also available.
-- **Early Decelerations**:
-- **Late Decelerations**:
-- **Variable Decelerations**:
+In relation to the type of decelerations, a function capable of discriminating between early, late and variable decelerations is also available:
+- **Variable Decelerations**: decelerations in where the distance between the initial point of the deceleration and the peak is smaller than 30 seconds.
+- **Early Decelerations**: decelerations in where the distance between the initial point of the deceleration and the peak is greater than 30 seconds and the distance between the previous tocometry peak and the deceleration peak is smaller than 30 seconds.
+- **Late Decelerations**: decelerations in where the distance between the initial point of the deceleration and the peak is greater than 30 seconds and the distance between the previous tocometry peak and the deceleration peak is greater than 30 seconds.
 
 ## An analysis example
 It must be taken into account that FHR and tocometry preprocessing techniques are required for the analysis. Therefore, preprocessing functions are also included in the repository. In our example, the initial length of the sequences was 120 minutes with a sampling frequency of 4Hz. After having processed the signals and resampled them by epochs, this is how the feature extraction analysis looks like each 10 minutes:
