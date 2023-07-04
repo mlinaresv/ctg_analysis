@@ -9,3 +9,10 @@ This library proposes different functions to extract the most important features
 - Decelerations:
 - Short-Term Variability:
 - Long-Term Variability:
+
+In relation to the type of decelerations, a function capable of discriminating between early, late and variable decelerations is also available.
+- Early Decelerations:
+- Late Decelerations:
+- Variable Decelerations:
+
+A complete analysis example.
