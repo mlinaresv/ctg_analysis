@@ -5,8 +5,8 @@ Python library for the automatic cardiotocogram (CTG) analysis and interpretatio
 
 This library proposes different functions to extract the most important features that characterize the CTG signals. According to FIGO's guidelines, these are:
 - **Baseline**: the mean level of the most horizontal and less oscillatory FHR segments. This feature is the most important one as accelerations and decelerations depend on it. In this library, the baseline is computed using the **SisPorto2.0** algorithm, which is based on the FHR histogram and the short-term values. 
-- **Accelerations**: increases in FHR above the baseline, of more than 15bpm in amplitude, and lasting more than 15 seconds but less than 10 minutes.
-- **Decelerations**: decreases in the FHR below the baseline, of more than 15bpm in amplitude, and lasting more than 15 seconds.
+- **Accelerations**: *increases* in FHR above the baseline, of more than 15bpm in amplitude, and lasting more than 15 seconds but less than 10 minutes.
+- **Decelerations**: *decreases* in the FHR below the baseline, of more than 15bpm in amplitude, and lasting more than 15 seconds.
 - **Short-Term Variability**: average of the absolute difference between FHR values of consecutive epochs for each minute (16 epochs).
 - **Long-Term Variability**: average of the absolute difference between the maximum and minimum FHR value for each minute (16 epochs).
 
