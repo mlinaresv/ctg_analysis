@@ -20,7 +20,7 @@ It must be taken into account that FHR and tocometry preprocessing techniques ar
 ![CTG Analysis](https://github.com/mlinaresv/ctg_analysis/blob/main/analysis.png)
 
 ## References
-- D.A. de Campos, J. Bernardes, A. Garrido, J.M. de Sá, and L. Pereira-Leite. SisPorto2.0: A program for automated analysis of cardiotocograms. *The Journal of Maternal-Fetal Medicine*, 9:311-318, 2000.
-- Z.-M. Zhang, S.Chen, and Y.-Z. Liang. Baseline correction using adaptive iteratively reweighted penalized least squares. *Analyst*, 135:1138-1146, 2010.
-- D. Ayres-de-Campos, C. Y. Spong, E. Chandraharan, for the FIGO Intrapartum Fetal Monitoring Expert Consensus Panel. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. *International Journal of Gynecology and Obstetrics*, 131:13-24, 2015. 
-- Z. Zhao, Y. Deng, Y. Zhang, Y. Zhang, X. Zhang, and L. Shao. DeepFHR: intelligent prediction of fetal acidemia using fetal heart rate signals based on convolutional neural network. *BMC Medical Informatics and Decision Making*, 19:286, 2019.
+- **Baseline Algorithm**. D.A. de Campos, J. Bernardes, A. Garrido, J.M. de Sá, and L. Pereira-Leite. SisPorto2.0: A program for automated analysis of cardiotocograms. *The Journal of Maternal-Fetal Medicine*, 9:311-318, 2000.
+- **Baseline Removal for the Tocometry Signal**. Z.-M. Zhang, S.Chen, and Y.-Z. Liang. Baseline correction using adaptive iteratively reweighted penalized least squares. *Analyst*, 135:1138-1146, 2010.
+- **Definition of features**. D. Ayres-de-Campos, C. Y. Spong, E. Chandraharan, for the FIGO Intrapartum Fetal Monitoring Expert Consensus Panel. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. *International Journal of Gynecology and Obstetrics*, 131:13-24, 2015. 
+- **Linear Preprocessing**. Z. Zhao, Y. Deng, Y. Zhang, Y. Zhang, X. Zhang, and L. Shao. DeepFHR: intelligent prediction of fetal acidemia using fetal heart rate signals based on convolutional neural network. *BMC Medical Informatics and Decision Making*, 19:286, 2019.
