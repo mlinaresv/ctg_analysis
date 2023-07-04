@@ -16,5 +16,5 @@ In relation to the type of decelerations, a function capable of discriminating b
 - Variable Decelerations:
 
 ## An analysis example
-It must be taken into account that FHR and tocometry preprocessing techniques are required for the analysis. Therefore, preprocessing functions are also included in the repository. In our example, the initial length of the sequences was 120 minutes with a sampling frequency of 4Hz. After having processed the signals and resampled them by epochs, this is how the feature extrcation analysis looks like each 10 minutes:
+It must be taken into account that FHR and tocometry preprocessing techniques are required for the analysis. Therefore, preprocessing functions are also included in the repository. In our example, the initial length of the sequences was 120 minutes with a sampling frequency of 4Hz. After having processed the signals and resampled them by epochs, this is how the feature extraction analysis looks like each 10 minutes:
 ![CTG Analysis](https://github.com/mlinaresv/ctg_analysis/blob/main/analysis.png)
