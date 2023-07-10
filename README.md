@@ -22,7 +22,7 @@ It must be taken into account that FHR and tocometry preprocessing techniques ar
 ![CTG Analysis 3](https://github.com/mlinaresv/ctg_analysis/blob/main/example3.png)
 
 ## References
-- **Baseline Algorithm**
+- **Baseline Algorithms**
   1. D.A. de Campos, J. Bernardes, A. Garrido, J.M. de Sá, and L. Pereira-Leite. SisPorto2.0: A program for automated analysis of cardiotocograms. *The Journal of Maternal-Fetal Medicine*, 9:311-318, 2000.
   2. S. Cazares. Automated identification of abnormal patterns in the intrapartum cardiotocogram. *Ph.D. Thesis at University of Oxford*, 2002.
   3. R. Mantel, HP. van Geijn, JM. Swartjes, EE. van Woerden, HW. Jongsma. Computer analysis of antepartum fetal heart rate: 1. Baseline determination. *Int J Biomed Comput.*, 25(4):261-72, 1990. 
