@@ -15,6 +15,10 @@ In relation to the type of decelerations, a function capable of discriminating b
 - **Early Decelerations**: decelerations in where the distance between the initial point of the deceleration and the peak is greater than 30 seconds and the distance between the previous tocometry peak and the deceleration peak is smaller than 30 seconds.
 - **Late Decelerations**: decelerations in where the distance between the initial point of the deceleration and the peak is greater than 30 seconds and the distance between the previous tocometry peak and the deceleration peak is greater than 30 seconds.
 
+## Baseline Algorithms
+The library allows the user to compute the baseline according to different algorithms described in the literature. This first version includes: SisPorto, Cazares, Mantel and Lu's algorithms. Visual differences in the signals are explained by the difference in the preprocessing methods used for each algorithm. 
+![Baseline Comparison](https://github.com/mlinaresv/ctg_analysis/blob/main/comparing_baseline.png)
+
 ## An analysis example
 It must be taken into account that FHR and tocometry preprocessing techniques are required for the analysis. Therefore, preprocessing functions are also included in the repository. In our example, the initial length of the sequences was 120 minutes with a sampling frequency of 4Hz. After having processed the signals and resampled them by epochs, this is how the feature extraction analysis looks like each 10 minutes:
 ![CTG Analysis 1](https://github.com/mlinaresv/ctg_analysis/blob/main/example1.png)
